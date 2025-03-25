@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Learning Platform</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+        body {
+            background-color: #fefae0;
+            text-align: center;
+        }
+        .header {
+            background: #ff6f61;
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            padding: 40px 20px;
+        }
+        .section {
+            margin: 30px 0;
+        }
+        .video, .audio {
+            margin: 20px 0;
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .image-gallery img {
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+        }
+        .footer {
+            background: #0077b6;
+            color: white;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Fun Learning for Kids</h1>
+        <p>Interactive, Engaging, and Creative Learning</p>
+    </div>
+    <div class="container">
+        <div class="section">
+            <h2>Learn with Videos</h2>
+            <div class="video">
+                <video width="320" height="240" controls>
+                    <source src="sample-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Listen & Learn</h2>
+            <div class="audio">
+                <audio controls>
+                    <source src="sample-audio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Fun with Images</h2>
+            <div class="image-gallery">
+                <img src="https://via.placeholder.com/200" alt="Learning Image 1">
+                <img src="https://via.placeholder.com/200" alt="Learning Image 2">
+                <img src="https://via.placeholder.com/200" alt="Learning Image 3">
+            </div>
+        </div>
+        <div class="section">
+            <h2>Enjoy Animated GIFs</h2>
+            <img src="https://via.placeholder.com/250" alt="Animated GIF">
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Fun Learning Platform. All rights reserved.</p>
+    </div>
+</body>
+</html>
